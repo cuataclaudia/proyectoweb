@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Segunda Clase</title>
+        <style>
+       <!-- ul li:first-child{
+            color:red    <!-- Nada más colorea el primer elemento--
+        } 
+            ul:first-child li:first-child { color: green; } --
+            @media (max-width: 400px) { 
+                header, .estilo1 
+                { 
+                width: 100%; 
+                }
+            }
+            @media (min-width: 481px) { 
+                header, .estilo1
+                {
+                float:left;
+                width: 50%;
+                }
+            }
+            -->
+            .estilo1{
+               text-shadow: 2px 2px 3px black, 0 0 1em blue, 0 0 0.2em blue;
+               color: white;
+               font: 1.5em Georgia, "Bitstream Charter", "URW Bookman L", "Century          Schoolbook L", serif;
+            
+            }
+            #transition {
+                box-shadow: 3px 3px 5px black;
+                transition-property: font-size;
+                transition-duration: 1s;
+                font-size: 16px;
+                color: #D6442F;
+            }
+
+            #transition:hover {
+                transition-property: font-size;
+                transition-duration: 1s;
+                font-size: 36px;
+                color: #D6442F;
+            }
+            
+            body { 
+                height: 100%;
+                width: 100%;
+               /* background-image: url("images/fondo.jpg"); */
+                background-size: cover 100%;
+                background-position:center;
+                background-attachment: scroll;
+                background-repeat: repeat-y;
+            }
+            
+        </style>
+    </head>
+    <body>
+      <!--  <ul>
+            <li>Elemento 1</li>
+            <li>Elemento 2</li>
+            <li>Elemento 3</li>
+            <li>Elemento 4</li>
+            <li>Elemento 5</li>                        
+        </ul>
+            
+        <ol>
+            <li>Elemento 1</li>
+            <li>Elemento 2</li>
+            <li>Elemento 3</li>
+            <li>Elemento 4</li>
+            <li>Elemento 5</li>                        
+        </ol>
+        -->
+            <header>
+           <div id="transition"> Hola mundo</div>
+            </header>
+        <div id="contenido">
+        <div class="estilo1">Adios mundo</div>
+        </div>
+    </body>
+</html>

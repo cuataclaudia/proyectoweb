@@ -1,0 +1,22 @@
+/*   BIENVENIDOS  */
+
+/* CSS */
+
+h1 {
+    font-size: 38px;
+    font-weight: normal;
+}
+#nombre {
+    font-weight: bold;
+}
+header,
+#contenido {
+    width: 80%;
+    margin: 0 auto;  /*auto= margen automatico
+    /*margin: 0, 10px, 0, 0   /*aqui se aplica unicamente al margen derecho, primero es arriba, izq, abajo, derecho 
+    margin-left: 150px;
+    margin-bottom: 150x;*/
+}
+.gris {
+    color: #666666;
+}

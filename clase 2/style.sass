@@ -1,0 +1,32 @@
+$colorPrimario = #696867;
+
+.nav {
+    .titulo {
+        font-size: 34em;
+        color: #eee;
+    }
+
+    .contenido {
+        color: #000;
+    }
+}
+
+@mixin border-radius($radius) {
+  -webkit-border-radius: $radius;
+     -moz-border-radius: $radius;
+      -ms-border-radius: $radius;
+          border-radius: $radius;
+}
+
+.box { @include border-radius(10px); }
+
+.message {
+  border: 1px solid #ccc;
+  padding: 10px;
+  color: #333;
+}
+
+.success {
+  @extend .message;
+  border-color: green;
+}
